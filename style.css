@@ -1,0 +1,221 @@
+/*************big*****************/
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/******************************/
+
+header>nav{
+    width: 100%;
+    height: 70px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(102, 118, 138);
+    font-size: 20px;
+}
+.hd>a{
+    color: aliceblue;
+}
+.hd>a:first-child{
+    padding-right: 10px;
+}
+.a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+}
+.don{
+    padding: 10px;
+    border-radius: 10px;
+    color: none !important;
+    background-color: aliceblue;
+    transition-duration: .5s;
+}
+.don:hover{
+    background-color: rgb(144, 144, 251);
+}
+/*************main*****************/
+
+.impo{
+    background-color: rgb(102, 118, 138);
+    color: aliceblue;
+}
+h1{
+    margin: 0;
+    font-size: 50px;
+    line-height: 100px;
+}
+.impo>p{
+    width: 80%;
+    margin: 0 10%;
+    font-size: 20px;
+    line-height: 30px;
+}
+.play{
+    font-size: 25px;
+    line-height: 100px;
+}
+.play>img{
+    position: relative;
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.play:hover img{
+    border-color: blue;
+}
+.impol{
+    color: rgb(49, 49, 49);
+    padding-left: 10px;
+}
+.impo div{
+    height: 40px;
+}
+.impo div:last-child{
+    height: 30px;
+}
+
+/******how*******/
+
+
+.why h2{
+    font-size: 30px;
+    margin: 100px 0 0 0;
+}
+.why p{
+    width: 60%;
+    margin: 0 0 100px 20%;
+    font-size: 18px;
+}
+
+/******two column*******/
+
+.two-col{
+    background-color: rgb(219, 223, 226);
+    display: flex;
+    justify-content: center;
+}
+.two-col>div{
+    width: 35%;
+    margin: 100px 10px;
+}
+
+.two-col .pic {
+    width: 80%;
+    height: 170px;
+    background-color: #66768a;
+    margin-left: 10%;
+}
+.two-col h2{
+    font-size: 20px;
+}
+.two-col p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.span{
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.span:hover{
+    cursor: pointer;
+    font-size: 17px;
+}
+
+/******last*******/
+
+.last{
+    margin-bottom: 100px;
+}
+.why .l-p{
+    margin: 10px 0 50px 20%;
+}
+
+/******footer*******/
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: #f0f8ff;
+}
+footer>div{
+    width: 90%;
+    margin-left: 5%;
+}
+footer *{
+    text-align: start;
+}
+.footer{
+    display: flex;
+    flex-grow: row wrap;
+    justify-content: space-between;
+}
+
+.fo-s{
+    width: 125px;
+    margin: 30px 0;
+}
+.fo-img{
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.fo-img>img{
+    width: 20%;
+    background-color: #fff;
+    transition-duration: .3s;
+}
+.fo-img>img:hover{
+    background-color: rgb(19, 5, 120);
+}
+.fo-ss{
+    display: block;
+    color: #a3a7ab;
+    margin: 20px 0 5px 0;
+}
+
+
+.fo-sl{
+    width: 170px;
+}
+.mixed{
+    font-size: 20px;
+}
+.fo-s>p{
+    font-size: 16px;
+}
+.float{
+    float: right;
+}
+
+.fo-last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nfont{
+    font-size: 14px;
+}
+.fo-last{
+    padding: 0 0 30px 0;
+}
+.fo-last>p{
+    margin: 10px 0 0 0;
+}
